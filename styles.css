@@ -1,0 +1,263 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fbe9d0;
+  color: #244855;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "times new roman";
+}
+
+/* Portfolio Name at Top Left */
+.portfolio-name {
+  position: fixed;
+  top: 20px;
+  left: 20px; 
+  z-index: 1000;
+}
+
+.portfolio-name h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: "Bangers", serif;
+
+  color: whitesmoke;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+
+
+/* Header */
+header {
+  background-color: #244855;
+  color: #fbe9d0;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+/* About Section */
+#about {
+  text-align: center;
+  background-color: #e64833;
+  padding: 40px 0;
+  color: #fff;
+}
+
+#about img {
+  width: 80%;
+  max-width: 30%;
+  max-height: 30%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+#about p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Skills Section */
+#skills {
+  background-color: #874f41;
+  padding: 40px 0;
+}
+
+#skills h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fbe9d0;
+}
+
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fbe9d0;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.progress-bar div {
+  height: 100%;
+  color: white;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 5px;
+}
+.subject{
+  font-family: "Bangers", serif;
+  letter-spacing: 2px;
+}
+.names{
+  font-family: "Roboto Slab", serif;
+}
+
+.html {
+  background-color: #244855;
+}
+
+.css {
+  background-color: #90aead;
+}
+
+.js {
+  background-color: #e64833;
+}
+
+/* Projects Section */
+#projects {
+  background-color: #90aead;
+  padding: 40px 0;
+}
+
+#projects .project {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#projects img {
+  width: 80%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#projects h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#projects p {
+  font-size: 1rem;
+  color: #244855;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Resume Section */
+#resume {
+  background-color: #244855;
+  color: #fbe9d0;
+  text-align: left;
+  padding: 60px 0;
+}
+
+#resume a {
+  text-decoration: none;
+  color: #fbe9d0;
+  background-color: #e64833;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  display: inline-block;
+}
+#resume img {
+  width: 80%;
+  max-width: 60%;
+  max-height: 50%;
+  border-radius: 10px;
+  margin-top: 20px;
+
+
+}
+
+/* Footer (Horizontal Contact List) */
+footer {
+  background-color: #874f41;
+  color: #fbe9d0;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.contact-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between items */
+  padding: 0;
+  margin: 0;
+}
+
+.contact-list li {
+  font-size: 1.2rem;
+}
+
+.contact-list a {
+  color: #fbe9d0;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between icon and text */
+}
+
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  font-size: 1.5rem;
+}
+
+/* Email Button (Top-right Corner) */
+.email-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.email-btn {
+  background-color: #e64833;
+  color: #fbe9d0;
+  font-family: "Open Sans", serif;
+  font-style: normal;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.email-btn:hover {
+  background-color: #244855;
+}
